@@ -1,0 +1,8 @@
+{
+  "name": "Hamid Route - Dubai Pickup, Delivery & Moving Services",
+  "description": "Dubai pickup, delivery, moving & transport services. Direct Call or WhatsApp booking with founder Hamid Bajwa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

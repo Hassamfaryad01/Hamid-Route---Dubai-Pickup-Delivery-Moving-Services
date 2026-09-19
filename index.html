@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function() {
+        try {
+          var origFetch = window.fetch;
+          var customFetch = origFetch;
+          var descriptor = {
+            get: function() { return customFetch; },
+            set: function(val) { customFetch = val; },
+            configurable: true,
+            enumerable: true,
+          };
+          try {
+            Object.defineProperty(window, 'fetch', descriptor);
+          } catch (e) {}
+          if (typeof Window !== 'undefined' && Window.prototype) {
+            try {
+              Object.defineProperty(Window.prototype, 'fetch', descriptor);
+            } catch (e) {}
+          }
+        } catch (_) {}
+      })();
+    </script>
+    <title>Hamid Route - Dubai Pickup, Delivery & Moving Services</title>
+    <meta
+      name="description"
+      content="Dubai pickup, delivery, moving & transport services. Direct Call or WhatsApp booking with founder Hamid Bajwa."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Hamid Route - Dubai Pickup, Delivery & Moving Services" />
+    <meta
+      property="og:description"
+      content="Dubai pickup, delivery, moving & transport services. Direct Call or WhatsApp booking with founder Hamid Bajwa."
+    />
+    <meta property="og:site_name" content="Hamid Route" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hamid Route - Dubai Pickup, Delivery & Moving Services" />
+    <meta
+      name="twitter:description"
+      content="Dubai pickup, delivery, moving & transport services. Direct Call or WhatsApp booking with founder Hamid Bajwa."
+    />
+
+    <!-- Google Fonts: Sora (Display) and Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JSON-LD Structured Data: LocalBusiness & Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Hamid Route",
+      "founder": {
+        "@type": "Person",
+        "name": "Hamid Bajwa"
+      },
+      "telephone": "+971507419304",
+      "url": "https://hamidroute.com",
+      "areaServed": {
+        "@type": "City",
+        "name": "Dubai"
+      },
+      "description": "Practical pickup, delivery, moving and transport services across Dubai. Direct Call or WhatsApp coordination.",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "07:00",
+          "closes": "22:00"
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-[#F4F1EA] text-[#0B1830] font-sans antialiased selection:bg-[#FF6A00] selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Sora', system-ui, -apple-system, sans-serif;
+    --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+    --color-route-navy: #0B1830;
+    --color-route-orange: #FF6A00;
+    --color-route-sand: #F4F1EA;
+    --color-signal-teal: #11B8A5;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-route-sand);
+    color: var(--color-route-navy);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+.font-display {
+  font-family: 'Sora', system-ui, -apple-system, sans-serif;
+}
+
+.font-body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
