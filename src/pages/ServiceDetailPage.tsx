@@ -202,7 +202,7 @@ export const ServiceDetailPage: React.FC<ServiceDetailPageProps> = ({
               <div className="pt-3 border-t border-white/10 text-[11px] text-white/60 space-y-1">
                 <div className="flex items-center gap-1.5">
                   <Clock className="w-3.5 h-3.5 text-[#FF6A00]" />
-                  <span>Prompt daily availability across Dubai</span>
+                  <span>Prompt daily availability across UAE</span>
                 </div>
                 <div className="flex items-center gap-1.5">
                   <Shield className="w-3.5 h-3.5 text-[#11B8A5]" />

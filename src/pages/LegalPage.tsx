@@ -23,7 +23,7 @@ export const LegalPage: React.FC<LegalPageProps> = ({ type }) => {
             {isPrivacy ? 'Privacy Policy' : 'Terms & Conditions'}
           </h1>
           <p className="mt-2 text-xs text-[#0B1830]/60 font-mono">
-            Hamid Route • Dubai, UAE • Effective Date: {new Date().getFullYear()}
+            Hamid Route • UAE • Effective Date: {new Date().getFullYear()}
           </p>
         </div>
 
@@ -73,7 +73,7 @@ export const LegalPage: React.FC<LegalPageProps> = ({ type }) => {
                   1. Service Scope
                 </h2>
                 <p>
-                  Hamid Route provides practical transport, pickup, moving, and delivery services within Dubai, UAE. All service arrangements, timings, and vehicular assignments are agreed upon individually via phone or WhatsApp prior to execution.
+                  Hamid Route provides practical transport, pickup, moving, and delivery services within UAE. All service arrangements, timings, and vehicular assignments are agreed upon individually via phone or WhatsApp prior to execution.
                 </p>
               </section>
 
@@ -91,7 +91,7 @@ export const LegalPage: React.FC<LegalPageProps> = ({ type }) => {
                   3. Cargo Care & Limitation
                 </h2>
                 <p>
-                  We treat all possessions with care, utilizing protective blankets and tie-down straps. In the event of unforeseen transit delays due to Dubai traffic or building security access hold-ups, we keep the customer directly informed.
+                  We treat all possessions with care, utilizing protective blankets and tie-down straps. In the event of unforeseen transit delays due to regional UAE traffic or building security access hold-ups, we keep the customer directly informed.
                 </p>
               </section>
 

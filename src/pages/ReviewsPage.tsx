@@ -24,7 +24,7 @@ export const ReviewsPage: React.FC<ReviewsPageProps> = ({ navigate }) => {
             WHAT PEOPLE SAY AFTER THE JOB IS DONE.
           </h1>
           <p className="mt-4 text-base sm:text-lg text-[#0B1830]/80 leading-relaxed">
-            Direct, reliable feedback from Dubai residents and businesses who coordinated their moves with Hamid Route.
+            Direct, reliable feedback from UAE residents and businesses who coordinated their moves with Hamid Route.
           </p>
           <div className="mt-6">
             <RouteLine
@@ -69,7 +69,7 @@ export const ReviewsPage: React.FC<ReviewsPageProps> = ({ navigate }) => {
                   </div>
                 </div>
                 <div className="text-xs text-[#0B1830]/40 font-mono">
-                  Dubai, UAE
+                  UAE
                 </div>
               </div>
             </div>

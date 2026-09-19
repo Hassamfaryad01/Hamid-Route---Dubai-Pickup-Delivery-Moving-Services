@@ -61,7 +61,7 @@ export const Footer: React.FC<FooterProps> = ({
               <HamidRouteLogo size="lg" textColor="light" />
             </div>
             <p className="text-sm text-white/70 leading-relaxed">
-              Dubai pickup, delivery, moving and transport services. Founded by Hamid Bajwa. Simple, direct communication from pickup to destination.
+              UAE pickup, delivery, moving and transport services. Founded by Hamid Bajwa. Simple, direct communication from pickup to destination.
             </p>
             <div className="pt-2 text-xs text-[#FF6A00] font-bold tracking-widest uppercase">
               MOVE THE RIGHT WAY.
@@ -135,7 +135,7 @@ export const Footer: React.FC<FooterProps> = ({
               </li>
               <li>
                 <a href="/areas/" onClick={(e) => handleNav('/areas/', e)} className="hover:text-[#FF6A00] transition-colors">
-                  Dubai Coverage Areas
+                  UAE Coverage Areas
                 </a>
               </li>
               <li>
@@ -173,7 +173,7 @@ export const Footer: React.FC<FooterProps> = ({
               </a>
               <div className="flex items-start gap-2.5 text-xs text-white/70">
                 <MapPin className="w-4 h-4 text-white/40 shrink-0 mt-0.5" />
-                <span>Active routes serving residential and commercial communities across Dubai, UAE.</span>
+                <span>Active routes serving residential and commercial communities across UAE.</span>
               </div>
             </div>
           </div>

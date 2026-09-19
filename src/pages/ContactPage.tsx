@@ -24,7 +24,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ navigate }) => {
             LET&apos;S GET IT MOVING.
           </h1>
           <p className="mt-4 text-base sm:text-lg text-[#0B1830]/80 leading-relaxed font-medium">
-            No booking forms or quote delays. Reach out directly by phone or WhatsApp to arrange your route across Dubai.
+            No booking forms or quote delays. Reach out directly by phone or WhatsApp to arrange your route across UAE.
           </p>
           <div className="mt-6">
             <RouteLine
@@ -171,7 +171,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ navigate }) => {
               <span>Service Area Coverage</span>
             </div>
             <p className="text-xs text-white/70">
-              Active routes throughout all residential and commercial zones in Dubai, UAE.
+              Active routes throughout all residential and commercial zones across UAE.
             </p>
           </div>
           <a
@@ -182,7 +182,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ navigate }) => {
             }}
             className="text-xs font-bold text-[#FF6A00] hover:underline shrink-0"
           >
-            View all Dubai areas →
+            View all UAE areas →
           </a>
         </div>
 

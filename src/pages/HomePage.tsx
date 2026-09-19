@@ -68,14 +68,14 @@ export const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
   };
 
   const whatNeedsMovingCards = [
-    { title: 'Furniture', desc: 'Sofas, beds, tables, wardrobes', path: '/furniture-pickup-delivery-dubai/', msg: 'Hello Hamid Route, I need furniture pickup/delivery in Dubai.' },
-    { title: 'Appliances', desc: 'Fridges, washers, cookers, dryers', path: '/appliance-pickup-delivery-dubai/', msg: 'Hello Hamid Route, I need appliance pickup/delivery in Dubai.' },
-    { title: 'Single Items', desc: 'Gym equipment, desks, TV units', path: '/single-item-pickup-dubai/', msg: 'Hello Hamid Route, I need single-item pickup/delivery in Dubai.' },
-    { title: 'Household Loads', desc: 'Boxes, suitcases, room contents', path: '/moving-shifting-dubai/', msg: 'Hello Hamid Route, I need moving/shifting service in Dubai.' },
-    { title: 'Office Equipment', desc: 'Workstations, files, monitors', path: '/office-moving-dubai/', msg: 'Hello Hamid Route, I need office moving/transport in Dubai.' },
-    { title: 'Large Loads', desc: 'Multi-room loads, commercial cargo', path: '/large-load-transport-dubai/', msg: 'Hello Hamid Route, I need larger-load transport in Dubai.' },
-    { title: 'Clearance', desc: 'Unwanted furniture & bulky items', path: '/junk-clearance-dubai/', msg: 'Hello Hamid Route, I need pickup/clearance service in Dubai.' },
-    { title: 'More Scenarios', desc: 'Any item needing transport in Dubai', path: '/contact/', msg: 'Hello Hamid Route, I need pickup/delivery service in Dubai.' },
+    { title: 'Furniture', desc: 'Sofas, beds, tables, wardrobes', path: '/furniture-pickup-delivery-dubai/', msg: 'Hello Hamid Route, I need furniture pickup/delivery in UAE.' },
+    { title: 'Appliances', desc: 'Fridges, washers, cookers, dryers', path: '/appliance-pickup-delivery-dubai/', msg: 'Hello Hamid Route, I need appliance pickup/delivery in UAE.' },
+    { title: 'Single Items', desc: 'Gym equipment, desks, TV units', path: '/single-item-pickup-dubai/', msg: 'Hello Hamid Route, I need single-item pickup/delivery in UAE.' },
+    { title: 'Household Loads', desc: 'Boxes, suitcases, room contents', path: '/moving-shifting-dubai/', msg: 'Hello Hamid Route, I need moving/shifting service in UAE.' },
+    { title: 'Office Equipment', desc: 'Workstations, files, monitors', path: '/office-moving-dubai/', msg: 'Hello Hamid Route, I need office moving/transport in UAE.' },
+    { title: 'Large Loads', desc: 'Multi-room loads, commercial cargo', path: '/large-load-transport-dubai/', msg: 'Hello Hamid Route, I need larger-load transport in UAE.' },
+    { title: 'Clearance', desc: 'Unwanted furniture & bulky items', path: '/junk-clearance-dubai/', msg: 'Hello Hamid Route, I need pickup/clearance service in UAE.' },
+    { title: 'More Scenarios', desc: 'Any item needing transport in UAE', path: '/contact/', msg: 'Hello Hamid Route, I need pickup/delivery service in UAE.' },
   ];
 
   return (
@@ -92,7 +92,7 @@ export const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
               {/* Service Subheadline tag */}
               <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#0B1830]/5 border border-[#0B1830]/10 text-xs font-bold text-[#0B1830] tracking-wider uppercase">
                 <span className="w-2 h-2 rounded-full bg-[#FF6A00]" />
-                Pickup, delivery & moving services across Dubai
+                Pickup, delivery & moving services across UAE
               </div>
 
               {/* H1 & Supporting Headline */}
@@ -149,7 +149,7 @@ export const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
               <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl border-4 border-white bg-[#0B1830]">
                 <img
                   src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=80"
-                  alt="Hamid Route transport vehicle loaded and ready for delivery in Dubai"
+                  alt="Hamid Route transport vehicle loaded and ready for delivery in UAE"
                   referrerPolicy="no-referrer"
                   className="w-full h-80 sm:h-96 lg:h-[430px] object-cover"
                 />
@@ -160,7 +160,7 @@ export const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
                   <div className="flex items-center justify-between">
                     <div>
                       <div className="text-[11px] font-bold uppercase tracking-wider text-[#FF6A00]">
-                        Direct Dubai Transport
+                        Direct UAE Transport
                       </div>
                       <div className="text-sm font-extrabold text-[#0B1830] font-display">
                         MOVE THE RIGHT WAY.
@@ -293,7 +293,7 @@ export const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
           <SectionHeading
             badge="COMPREHENSIVE SERVICES"
             title="ONE ROUTE. MANY WAYS TO MOVE."
-            subtitle="Clear solutions for moving items across Dubai, arranged directly without third-party commission or delay."
+            subtitle="Clear solutions for moving items across UAE, arranged directly without third-party commission or delay."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -369,7 +369,7 @@ export const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
           <SectionHeading
             badge="CAPACITY & EQUIPMENT"
             title="THE RIGHT VEHICLE FOR THE JOB."
-            subtitle="Transparent matching of transport space to your specific load requirements across Dubai."
+            subtitle="Transparent matching of transport space to your specific load requirements across UAE."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -530,7 +530,7 @@ export const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
           <SectionHeading
             badge="OUR COMMITMENT"
             title="BUILT AROUND WHAT MATTERS."
-            subtitle="Direct communication, careful cargo handling, and dependable service across Dubai."
+            subtitle="Direct communication, careful cargo handling, and dependable service across UAE."
           />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -562,7 +562,7 @@ export const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
           <SectionHeading
             badge="AUTHENTIC SERVICE LOG"
             title="REAL JOBS. REAL ROUTES."
-            subtitle="Verified movement jobs completed across Dubai residential towers, villas, and commercial hubs."
+            subtitle="Verified movement jobs completed across UAE residential towers, villas, and commercial hubs."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
@@ -630,7 +630,7 @@ export const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
           <SectionHeading
             badge="AUTHENTIC EXPERIENCES"
             title="WHAT PEOPLE SAY AFTER THE JOB IS DONE."
-            subtitle="Verified feedback from customers across Dubai who arranged their moves directly with Hamid Route."
+            subtitle="Verified feedback from customers across UAE who arranged their moves directly with Hamid Route."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
@@ -761,7 +761,7 @@ export const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
                   Hamid Route was built around a simple idea: moving something from one place to another shouldn&apos;t become unnecessarily complicated.
                 </p>
                 <p>
-                  I&apos;m Hamid Bajwa, and I built Hamid Route around practical pickup, delivery, transport and moving services across Dubai.
+                  I&apos;m Hamid Bajwa, and I built Hamid Route around practical pickup, delivery, transport and moving services across UAE.
                 </p>
                 <p>
                   Every job starts with the same basic question: what needs moving, where does it need to go, and what is the simplest practical way to make that happen?
@@ -800,7 +800,7 @@ export const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
               <div className="space-y-3 text-xs text-[#0B1830]/80">
                 <div className="flex items-start gap-2.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-[#FF6A00] mt-1 shrink-0" />
-                  <span>Direct point of contact for daily pickups, relocations, and deliveries across Dubai.</span>
+                  <span>Direct point of contact for daily pickups, relocations, and deliveries across UAE.</span>
                 </div>
                 <div className="flex items-start gap-2.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-[#FF6A00] mt-1 shrink-0" />
@@ -808,7 +808,7 @@ export const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
                 </div>
                 <div className="flex items-start gap-2.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-[#FF6A00] mt-1 shrink-0" />
-                  <span>7:00 AM – 10:00 PM Daily availability across all Dubai zones.</span>
+                  <span>7:00 AM – 10:00 PM Daily availability across all UAE zones.</span>
                 </div>
               </div>
 
@@ -844,7 +844,7 @@ export const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
                 OUR MISSION
               </h2>
               <p className="text-sm sm:text-base text-[#0B1830]/80 leading-relaxed">
-                To make moving things around Dubai simpler, clearer and easier to arrange. We aim to connect pickup points with destinations through practical transportation, direct communication and a service experience built around getting the job done properly.
+                To make moving things around UAE simpler, clearer and easier to arrange. We aim to connect pickup points with destinations through practical transportation, direct communication and a service experience built around getting the job done properly.
               </p>
             </div>
 
@@ -857,7 +857,7 @@ export const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
                 OUR VISION
               </h2>
               <p className="text-sm sm:text-base text-[#0B1830]/80 leading-relaxed">
-                To build Hamid Route into a recognized Dubai movement brand people think of whenever something needs to get from one place to another.
+                To build Hamid Route into a recognized UAE movement brand people think of whenever something needs to get from one place to another.
               </p>
             </div>
           </div>
@@ -872,7 +872,7 @@ export const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
           <SectionHeading
             badge="HELPFUL QUESTIONS"
             title="FREQUENTLY ASKED QUESTIONS"
-            subtitle="Straightforward answers about arranging pickup, transport, and moving in Dubai."
+            subtitle="Straightforward answers about arranging pickup, transport, and moving in UAE."
           />
 
           <div className="space-y-4">

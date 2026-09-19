@@ -18,17 +18,17 @@ export const AreasPage: React.FC<AreasPageProps> = ({ navigate }) => {
         <div className="text-center max-w-3xl mx-auto mb-14">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#0B1830]/5 text-xs font-bold text-[#FF6A00] uppercase tracking-wider mb-4">
             <span className="w-1.5 h-1.5 rounded-full bg-[#FF6A00]" />
-            DUBAI GEOGRAPHIC COVERAGE
+            UAE GEOGRAPHIC COVERAGE
           </div>
           <h1 className="font-display text-3xl sm:text-5xl font-extrabold text-[#0B1830] tracking-tight">
-            PICKUP & MOVING ACROSS DUBAI.
+            PICKUP & MOVING ACROSS UAE.
           </h1>
           <p className="mt-4 text-base sm:text-lg text-[#0B1830]/80 leading-relaxed">
-            Active daily pickup and delivery routes connecting towers, villa communities, and business centers across Dubai.
+            Active daily pickup and delivery routes connecting towers, villa communities, and business centers across UAE.
           </p>
           <div className="mt-6">
             <RouteLine
-              origin="ALL DUBAI COMMUNITIES"
+              origin="ALL UAE COMMUNITIES"
               destination="ANY DESTINATION"
               variant="compact"
               className="max-w-md mx-auto bg-white/60"
@@ -65,13 +65,13 @@ export const AreasPage: React.FC<AreasPageProps> = ({ navigate }) => {
             <span>Building & Community Access</span>
           </div>
           <h2 className="font-display font-extrabold text-2xl text-[#0B1830]">
-            Familiar With Dubai Security & Loading Bays
+            Familiar With UAE Security & Loading Bays
           </h2>
           <p className="text-sm sm:text-base text-[#0B1830]/80 leading-relaxed">
-            Many Dubai properties — such as high-rise residences in Downtown, Marina, and DIFC, or gated communities in Arabian Ranches and Palm Jumeirah — require service elevator bookings or security gate permits. We assist in aligning pickup times with your building access requirements so moves proceed without hitches.
+            Many UAE properties — such as high-rise residences in Downtown, Marina, and DIFC, or gated communities in Arabian Ranches and Palm Jumeirah — require service elevator bookings or security gate permits. We assist in aligning pickup times with your building access requirements so moves proceed without hitches.
           </p>
           <div className="pt-2 text-xs text-[#0B1830]/70 font-semibold">
-            ✓地下 parking clearance check • ✓ Service elevator loading coordination • ✓ Clean handling
+            ✓ Basement parking clearance check • ✓ Service elevator loading coordination • ✓ Clean handling
           </div>
         </div>
 

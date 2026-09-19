@@ -24,7 +24,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ navigate }) => {
             THE STORY BEHIND HAMID ROUTE.
           </h1>
           <p className="mt-4 text-base sm:text-lg text-[#0B1830]/80 leading-relaxed">
-            Founded by Hamid Bajwa to bring straightforward communication and practical care to Dubai pickup and moving services.
+            Founded by Hamid Bajwa to bring straightforward communication and practical care to UAE pickup and moving services.
           </p>
           <div className="mt-6">
             <RouteLine
@@ -47,19 +47,19 @@ export const AboutPage: React.FC<AboutPageProps> = ({ navigate }) => {
               Hamid Bajwa
             </h2>
             <p className="text-xs sm:text-sm text-[#0B1830]/70 font-medium">
-              Founder, Hamid Route Dubai • Direct Line: {BUSINESS_INFO.primaryPhone}
+              Founder, Hamid Route UAE • Direct Line: {BUSINESS_INFO.primaryPhone}
             </p>
           </div>
 
           <div className="space-y-4 text-base text-[#0B1830]/85 leading-relaxed">
             <p>
-              Hamid Route was built around a simple observation: moving items around Dubai shouldn&apos;t be an exercise in frustration.
+              Hamid Route was built around a simple observation: moving items around UAE shouldn&apos;t be an exercise in frustration.
             </p>
             <p>
               Too often, people dealing with transport services encounter endless automated forms, anonymous call centers, unexpected delays, and personnel who treat delicate furniture like rough freight.
             </p>
             <p>
-              I founded Hamid Route with a direct commitment: when you need something moved in Dubai, you speak with the person coordinating the journey. You receive honest assessments of vehicle suitability, punctual arrival, and genuine care for your possessions.
+              I founded Hamid Route with a direct commitment: when you need something moved in UAE, you speak with the person coordinating the journey. You receive honest assessments of vehicle suitability, punctual arrival, and genuine care for your possessions.
             </p>
             <p>
               Whether it&apos;s a single marketplace sofa, an upright refrigerator move, an office transfer, or shifting an apartment across town, we treat every job as a complete route that deserves respect.
@@ -80,7 +80,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ navigate }) => {
               Our Mission
             </h3>
             <p className="text-sm sm:text-base text-[#0B1830]/80 leading-relaxed">
-              To make moving things around Dubai simpler, clearer and easier to arrange. We aim to connect pickup points with destinations through practical transportation, direct communication and a service experience built around getting the job done properly.
+              To make moving things around UAE simpler, clearer and easier to arrange. We aim to connect pickup points with destinations through practical transportation, direct communication and a service experience built around getting the job done properly.
             </p>
           </div>
 
@@ -92,7 +92,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ navigate }) => {
               Our Vision
             </h3>
             <p className="text-sm sm:text-base text-[#0B1830]/80 leading-relaxed">
-              To build Hamid Route into a recognized Dubai movement brand people think of whenever something needs to get from one place to another.
+              To build Hamid Route into a recognized UAE movement brand people think of whenever something needs to get from one place to another.
             </p>
           </div>
         </div>
@@ -129,7 +129,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ navigate }) => {
 
             <div className="space-y-2">
               <div className="font-display font-bold text-white text-base">
-                Dubai Familiarity
+                UAE Familiarity
               </div>
               <p className="text-xs text-white/70 leading-relaxed">
                 Knowledge of community gate access, service elevators, and peak highway traffic windows.

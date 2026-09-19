@@ -53,15 +53,15 @@ export default function App() {
 
   // Synchronize Document Title, Meta Description & Analytics
   useEffect(() => {
-    let title = 'Hamid Route - Dubai Pickup, Delivery & Moving Services';
-    let description = 'Dubai pickup, delivery, moving & transport services. Direct Call or WhatsApp booking with founder Hamid Bajwa.';
+    let title = 'Hamid Route - UAE Pickup, Delivery & Moving Services';
+    let description = 'UAE pickup, delivery, moving & transport services. Direct Call or WhatsApp booking with founder Hamid Bajwa.';
 
     if (currentPath === '/') {
-      title = 'Hamid Route - Dubai Pickup, Delivery & Moving Services';
-      description = 'Dubai pickup, delivery, moving & transport services. Direct Call or WhatsApp booking with founder Hamid Bajwa.';
+      title = 'Hamid Route - UAE Pickup, Delivery & Moving Services';
+      description = 'UAE pickup, delivery, moving & transport services. Direct Call or WhatsApp booking with founder Hamid Bajwa.';
     } else if (currentPath === '/services/') {
-      title = 'Services | Pickup, Delivery & Moving Dubai | Hamid Route';
-      description = 'Explore Hamid Route services in Dubai: furniture pickup, appliance delivery, single items, office and apartment moving. Direct Call or WhatsApp.';
+      title = 'Services | Pickup, Delivery & Moving UAE | Hamid Route';
+      description = 'Explore Hamid Route services in UAE: furniture pickup, appliance delivery, single items, office and apartment moving. Direct Call or WhatsApp.';
       trackEvent('service_page_view', { page: 'services_hub' });
     } else if (matchedService) {
       title = matchedService.metaTitle;
@@ -71,25 +71,25 @@ export default function App() {
       title = 'How It Works | Simple 3-Step Route | Hamid Route';
       description = 'How Hamid Route works: Tell us what needs moving, share the details, and get it moving. No forms or calculators.';
     } else if (currentPath === '/reviews/') {
-      title = 'Customer Reviews | Dubai Moving & Transport | Hamid Route';
-      description = 'Real customer experiences with Hamid Route pickup, delivery and moving services across Dubai.';
+      title = 'Customer Reviews | UAE Moving & Transport | Hamid Route';
+      description = 'Real customer experiences with Hamid Route pickup, delivery and moving services across UAE.';
       trackEvent('review_view');
     } else if (currentPath === '/about/') {
       title = 'About Hamid Route | Founder Hamid Bajwa';
-      description = 'Learn about Hamid Route and founder Hamid Bajwa. Practical pickup, delivery and moving services across Dubai.';
+      description = 'Learn about Hamid Route and founder Hamid Bajwa. Practical pickup, delivery and moving services across UAE.';
     } else if (currentPath === '/contact/') {
-      title = 'Contact Hamid Route | Dubai Pickup & Moving Services';
-      description = 'Contact Hamid Route directly by phone or WhatsApp on 050 741 9304 to arrange your pickup or move in Dubai.';
+      title = 'Contact Hamid Route | UAE Pickup & Moving Services';
+      description = 'Contact Hamid Route directly by phone or WhatsApp on 050 741 9304 to arrange your pickup or move in UAE.';
       trackEvent('contact_page_view');
     } else if (currentPath === '/areas/') {
-      title = 'Areas We Serve in Dubai | Hamid Route';
+      title = 'Areas We Serve in UAE | Hamid Route';
       description = 'Hamid Route provides pickup, moving and delivery services across Dubai Marina, Downtown, JLT, JVC, Business Bay, Dubai Hills, and beyond.';
     } else if (currentPath === '/privacy/') {
       title = 'Privacy Policy | Hamid Route';
-      description = 'Privacy policy and data handling information for Hamid Route services in Dubai.';
+      description = 'Privacy policy and data handling information for Hamid Route services in UAE.';
     } else if (currentPath === '/terms/') {
       title = 'Terms & Conditions | Hamid Route';
-      description = 'Terms and conditions for Hamid Route pickup, delivery and moving services in Dubai.';
+      description = 'Terms and conditions for Hamid Route pickup, delivery and moving services in UAE.';
     } else {
       title = 'Wrong Route? | Hamid Route';
     }
